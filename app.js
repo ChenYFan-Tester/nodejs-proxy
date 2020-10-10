@@ -8,8 +8,7 @@
         res.writeHead(500, {  
             'Content-Type': 'text/plain'  
         });  
-       res.end('Something went wrong. And we are reporting a         
-       custom error message.');  
+       res.end('Something went wrong. And we are reporting a custom error message.');  
  });  
      
  // 在每次请求中，调用 proxy.web(req, res config) 方法进行请求分发  
