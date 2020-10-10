@@ -1,0 +1,11 @@
+{
+  "scripts": {
+   "start": "node app.js" 
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "dependencies": {
+    "http-proxy": "1.18.1"
+  }
+}
