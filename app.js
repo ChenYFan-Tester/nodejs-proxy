@@ -34,5 +34,5 @@
 
  });  
    
- console.log("listening on port 80")  
- server.listen(80);  
+ console.log("listening on port $LEANCLOUD_APP_PORT")  
+ server.listen($LEANCLOUD_APP_PORT);  
